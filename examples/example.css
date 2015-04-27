@@ -1,0 +1,255 @@
+*{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+h2 { font-size: 18px; }
+	
+#mainContent{
+		border: 1px solid black;
+		background: #e1e1ff;
+		width: 810px;
+		padding: 5px;
+		margin: 5px;
+}
+	
+#warningContent {
+		border: 1px solid black;
+		background: #ffebe1;
+		width: 810px;
+		padding: 5px;
+		margin: 5px;
+}
+	
+#ticketTable { border-collapse:collapse; }
+
+#ticketTable tr th {
+	border-bottom: solid #000000 1px;
+	border-left: dotted #4C9FD3 1px;
+	border-right: dotted #4C9FD3 1px;
+	border-top: dotted #4C9FD3 1px;
+	background: #B4DEFF;
+	font-weight: bold;
+	padding:2px;
+	font-size:11px;
+	font-weight:bold;
+	vertical-align:bottom;
+	font-family:Verdana,Arial,'Bitstream Vera Sans',Helvetica,sans-serif;
+	color:#224122;
+}
+
+#ticketTable tr td {
+	border: dotted #4C9FD3 1px;
+	padding:2px;
+	
+}
+#ticketTable tr.row0 td {
+	background: #E0F1FF;
+	text-decoration: none;	
+}
+#ticketTable tr.row1 td {
+	background: #FFFCDF;
+	text-decoration: none;	
+}
+#ticketTable tr.rowHover td {
+	background: #FFEF55;
+	cursor:pointer;
+	text-decoration: underline;	
+}
+#trackerheader {
+	border-bottom:1px solid #235577;
+	height:20px;
+	margin:0;
+	padding: 0 5px 3px 5px;
+}
+
+.trackercrumb {
+	width: 700px;
+	height: 15px;
+	padding: 5px 0px 5px 0px;
+	float:left;
+	}
+.tracrss {
+	width: 150px;
+	height: 15px;
+	padding: 5px 0px 5px 0px;
+	float:right;
+	text-align:right;
+}
+.trackercrumb span{
+	width: 100%;
+	float: right;
+	text-align:left;
+}
+#trackerContents {padding: 10px 5px 10px 5px;}
+#trackerFooter { height:20px; padding-bottom: 10px; padding-top: 5px;}
+#tracPowered {
+	width: 150px;
+	height: 15px;
+	padding: 5px 0px 5px 0px;
+	float:left;
+	}
+#tracButtons {
+	width: 500px;
+	height: 15px;
+	padding: 5px 10px 5px 0px;
+	float:right;
+	text-align: right;
+	
+}
+	
+	
+#ticketSmallText {
+	color: #aaaaaa;
+	font-size: 10px;
+}
+#ticketViewBox {
+	width: 650px;
+	background: #FFFCDF;
+	border-bottom: 1px solid #235577;
+	border-right: 1px solid #235577;
+	border-top: 1px solid #95c1df;
+	border-left: 1px solid #95c1df;
+	margin: 5px;
+	padding: 2px;
+	text-align: left;
+}
+
+#ticketViewBox div.date {
+	color:#807300;
+	float:right;
+	font-size:85%;
+	position:relative;
+	padding: 2px;
+	margin: 0;
+}
+
+#ticketViewBox h2{ 
+	margin:0 0 0.8em; 
+	font-size:16px;
+	font-family:Arial,Verdana,'Bitstream Vera Sans',Helvetica,sans-serif;
+	font-weight:bold;
+	letter-spacing:-0.018em;
+	padding-left: 0.5em;
+	page-break-after:avoid;
+}
+
+h2.titleText{
+	font-size:16px;
+	font-family:Arial,Verdana,'Bitstream Vera Sans',Helvetica,sans-serif;
+	font-weight:bold;
+	page-break-after:avoid;
+	}
+#ticketViewBox table.ticketProperties, #ticketViewBox table.ticketDescription{
+	border-collapse:collapse;
+	border-top:1px solid #95c1df;
+	clear:both;
+	table-layout:fixed;
+	width:100%;
+}
+
+#ticketViewBox table.ticketProperties td, #ticketViewBox table.ticketProperties th {
+	font-size:80%;
+	padding:0.5em 1em;
+	vertical-align:top;
+}
+
+#ticketViewBox table.ticketProperties th {
+	color:#807300;
+	font-weight:normal;
+	text-align:left;
+	width:15%;
+}
+
+#ticketViewBox table.ticketDescription th {
+	color:#807300;
+	font-weight: bold;
+	text-align:left;
+	padding:5px 0 2px 10px;
+}
+#ticketViewBox table.ticketDescription td {
+	font-size:100%;
+	padding:5px 10px 5px 10px;
+	vertical-align:top;
+}
+pre.wiki, pre.literal-block {
+	background:#F7F7F7 none repeat scroll 0 0;
+	border:1px solid #D7D7D7;
+	margin:1em 1.75em;
+	overflow:auto;
+	padding:0.25em;
+}
+	
+#ticketChangesBox{
+	width: 650px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #235577;
+	border-right: 1px solid #235577;
+	border-top: 1px solid #95c1df;
+	border-left: 1px solid #95c1df;
+	margin: 5px;
+	padding: 2px;
+	text-align: left;
+	}
+	
+ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:square;
+	margin-left:2em;
+	margin-top: 0;
+	padding:0;
+}
+
+
+span.changeTitle {
+	height: 12px;
+	font-weight: bold;
+	padding-left: 5px;
+	
+}
+span.changeComment {
+	height: 12px;
+	font-weight: normal;
+	padding-left: 30px;
+}
+
+.code {
+	font-family: "courier new",courier,monospace;
+	font-size: .8em;
+	color: #224122;
+	border: solid 1px #C6C897;
+	background-color:#F2F4B8;
+	overflow: auto;
+    padding: 4px 4px 4px 4px;
+    line-height: 15px;
+	margin:5px 0 5px 0;
+}
+
+/* Form Elements */
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+	background:#EEEEEE none repeat scroll 0 0;
+	border:1px outset #CCCCCC;
+	color:#222222;
+	padding:0.1em 0.5em;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+	background:#CCCCBB none repeat scroll 0 0;
+}
+
+.buttons input {
+	margin:1em 0.5em 0.1em 0;
+}
+
+input, select {
+	vertical-align:middle;
+}
+
+label {
+	position: absolute; 
+	text-align:right; width:130px;
+	font-size: .9em;
+}
+input, textarea, select { margin-left: 140px; }
